@@ -1,19 +1,7 @@
-<h1 align="center">
-  <img src="https://img.shields.io/badge/-quicklist-C9184A?style=for-the-badge&logoColor=white" alt="Quicklist" />
-</h1>
-
 <p align="center">
-  Aplicação simples e responsiva para gerenciar sua lista de compras da semana.
+    <img src=".github\img\logo.svg" alt="Quicklist" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Responsivo-Mobile%20%26%20Desktop-C9184A?style=flat-square" />
-</p>
-
----
 
 ## 📋 Sobre o projeto
 
