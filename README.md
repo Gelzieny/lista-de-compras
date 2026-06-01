@@ -51,12 +51,10 @@ Por ser um projeto com HTML, CSS e JavaScript puro, **não precisa de instalaç�
 
 ## 🛠️ Tecnologias utilizadas
 
-| Tecnologia | Uso |
-|---|---|
-| **HTML5** | Estrutura semântica com `<form>`, `<ul>`, `<li>`, ARIA |
-| **CSS3** | Design system com variáveis, Flexbox, animações e media queries |
-| **JavaScript ES6+** | Manipulação do DOM, eventos, estado da aplicação |
-| **Google Fonts – Inter** | Tipografia moderna e legível |
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=html,css,js" />
+</a>
+
 
 ## 🎨 Decisões de design
 
@@ -78,9 +76,6 @@ A aplicação adapta o layout automaticamente para telas menores que **560px**:
 ## 👩‍💻 Autora
 
 Feito com 💜 por **Gelzieny R. Martins**
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/gelzieny)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Gelzieny)
 
 ---
 
