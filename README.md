@@ -18,11 +18,10 @@ O **Quicklist** é um desafio prático desenvolvido durante a formação front-e
 - ✅ **Estado vazio** — Mensagem ilustrada quando a lista está sem itens
 - ✅ **Responsivo** — Funciona em desktop e mobile
 
-## 🖥️ Preview
+## 🖥️ Preview do Projeto
 
-| Desktop | Mobile |
-|---|---|
-| Input e botão lado a lado | Input e botão em coluna, largura total |
+<img src=".github/img/Desktop.png" alt="Home do projeto"/>
+
 
 ## 🗂️ Estrutura do projeto
 
