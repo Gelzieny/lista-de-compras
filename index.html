@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Quicklist – gerencie sua lista de compras da semana de forma simples e rápida."
+    />
+    <title>Quicklist – Lista de Compras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header / Logo -->
+    <header class="site-header">
+      <div class="logo">
+        <svg
+          class="logo-icon"
+          viewBox="0 0 32 32"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+        >
+          <rect x="2" y="6" width="28" height="4" rx="2" fill="#C9184A" />
+          <rect x="2" y="14" width="20" height="4" rx="2" fill="#C9184A" />
+          <rect x="2" y="22" width="24" height="4" rx="2" fill="#C9184A" />
+        </svg>
+        <span class="logo-text">quicklist</span>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <main class="main-container">
+      <!-- Back button -->
+      <nav aria-label="Navegação">
+        <button id="btn-voltar" class="btn-back" type="button">
+          <svg
+            viewBox="0 0 16 16"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden="true"
+          >
+            <path
+              d="M10 12L6 8l4-4"
+              stroke="#C9184A"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          Voltar
+        </button>
+      </nav>
+
+      <!-- Page title -->
+      <h1 class="page-title">Compras da semana</h1>
+
+      <!-- Add item form -->
+      <form id="form-adicionar" class="add-form" novalidate>
+        <input
+          type="text"
+          id="input-item"
+          class="input-item"
+          placeholder="Adicione um novo item"
+          autocomplete="off"
+          aria-label="Nome do novo item"
+          maxlength="80"
+        />
+        <button type="submit" id="btn-adicionar" class="btn-add">
+          Adicionar item
+        </button>
+      </form>
+
+      <!-- Validation error message -->
+      <p id="msg-erro" class="msg-erro" role="alert" aria-live="polite"></p>
+
+      <!-- Shopping list -->
+      <ul id="lista-compras" class="shopping-list" aria-label="Lista de compras">
+        <!-- Items rendered by JS -->
+      </ul>
+    </main>
+
+    <!-- Toast notification -->
+    <div
+      id="toast"
+      class="toast"
+      role="status"
+      aria-live="polite"
+      aria-atomic="true"
+    >
+      <div class="toast-content">
+        <svg
+          class="toast-icon"
+          viewBox="0 0 20 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+        >
+          <circle cx="10" cy="10" r="9" stroke="#fff" stroke-width="1.6" />
+          <path
+            d="M10 6v4"
+            stroke="#fff"
+            stroke-width="1.8"
+            stroke-linecap="round"
+          />
+          <circle cx="10" cy="13.5" r=".9" fill="#fff" />
+        </svg>
+        <span id="toast-msg" class="toast-msg">O item foi removido da lista</span>
+      </div>
+      <button
+        id="btn-fechar-toast"
+        class="toast-close"
+        type="button"
+        aria-label="Fechar notificação"
+      >
+        <svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path
+            d="M1 1l12 12M13 1L1 13"
+            stroke="#fff"
+            stroke-width="1.8"
+            stroke-linecap="round"
+          />
+        </svg>
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
