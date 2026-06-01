@@ -1,5 +1,5 @@
 <p align="center">
-    <img src=".github\img\logo.svg" alt="Quicklist" />
+    <img src=".github\img\logo.svg" alt="Quicklist" width="500"/>
 </p>
 
 
